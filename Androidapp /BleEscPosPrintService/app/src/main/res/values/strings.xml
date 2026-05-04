@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Trafman Print Bridge</string>
+    <string name="intro">Free Bluetooth ESC/POS bridge for Trafman web and Xprinter XP-P323B tests. No RawBT required.</string>
+    <string name="bluetooth_printer">Bluetooth printer</string>
+    <string name="refresh_bluetooth">Refresh paired Bluetooth printers</string>
+    <string name="save_settings">Save printer settings</string>
+    <string name="standalone_tests">Standalone printer tests</string>
+    <string name="plain_text_test">Print plain text test</string>
+    <string name="receipt_test">Print ESC/POS receipt test</string>
+    <string name="qr_test">Print QR code test</string>
+    <string name="feed_cut_test">Print feed and cut test</string>
+    <string name="trafman_bridge">Trafman Chrome bridge mode</string>
+    <string name="sample_uri">Show sample Chrome intent URL</string>
+    <string name="view_logs">View logs</string>
+    <string name="logs">Print bridge logs</string>
+    <string name="clear_logs">Clear logs</string>
+</resources>

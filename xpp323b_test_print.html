@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<!--
+  XP-P323B Test Print — S56 Mobile Transgression Slip
+  Sample data from: Transgressions_Mobile_Slip 3.pdf
+
+  HOW TO PRINT:
+  1. Open this file in Chrome or Edge
+  2. Press Ctrl+P
+  3. Printer: Xprinter XP-P323B
+  4. Paper size: Custom — Width 72 mm, Height 560 mm  (or "Auto" if driver supports it)
+  5. Margins: None (or Minimum)
+  6. Scale: 100%
+  7. Uncheck "Headers and footers"
+  8. Print
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>S56 Transgression Slip — XP-P323B Test Print</title>
+  <style>
+    @page {
+      size: 72mm auto;
+      margin: 1.5mm 2mm;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 8pt;
+      width: 68mm;
+      color: #000;
+      background: #fff;
+    }
+
+    /* ── Header ───────────────────────────────────────────── */
+    .header {
+      border: 1px solid #000;
+      display: flex;
+      align-items: center;
+      padding: 1.5mm;
+      gap: 1.5mm;
+      min-height: 19mm;
+      margin-bottom: 1mm;
+    }
+    .logo-box {
+      width: 15mm;
+      height: 15mm;
+      border: 1px solid #aaa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5.5pt;
+      text-align: center;
+      flex-shrink: 0;
+      color: #888;
+    }
+    .header-text {
+      flex: 1;
+      text-align: center;
+    }
+    .header-title {
+      font-size: 10pt;
+      font-weight: bold;
+      line-height: 1.25;
+    }
+    .header-sub {
+      font-size: 8pt;
+      font-weight: bold;
+      margin-top: 1.5mm;
+      line-height: 1.3;
+    }
+
+    /* ── Warning banner ───────────────────────────────────── */
+    .warning {
+      border: 1px solid #000;
+      padding: 1mm 1.5mm;
+      font-size: 7.5pt;
+      text-align: center;
+      margin-bottom: 1mm;
+    }
+
+    /* ── Section shell ────────────────────────────────────── */
+    .section {
+      border: 1px solid #000;
+      margin-bottom: 1mm;
+    }
+    .section-header {
+      border-bottom: 1px solid #000;
+      padding: 1mm;
+      text-align: center;
+      font-weight: bold;
+      font-size: 8.5pt;
+    }
+    .section-body {
+      padding: 1mm 1.5mm 0.5mm;
+    }
+    .preamble {
+      padding: 1mm 1.5mm;
+      font-size: 7.5pt;
+      border-bottom: none;
+    }
+
+    /* ── Field rows ───────────────────────────────────────── */
+    .row {
+      display: flex;
+      align-items: flex-start;
+      padding: 0.35mm 0;
+      font-size: 8pt;
+      line-height: 1.3;
+    }
+    .lbl {
+      min-width: 24mm;
+      flex-shrink: 0;
+      font-size: 8pt;
+    }
+    .val {
+      flex: 1;
+      font-size: 8pt;
+      word-break: break-word;
+    }
+
+    /* ── Block label (Description, Regulation) ────────────── */
+    .block-label {
+      font-size: 8pt;
+      padding: 0.5mm 0 0;
+    }
+    .block-text {
+      font-size: 8pt;
+      padding: 0 0 1mm 0;
+      line-height: 1.3;
+    }
+
+    /* ── Charge separator ─────────────────────────────────── */
+    .charge-sep {
+      border-top: 1px dashed #000;
+      margin: 1.5mm 0;
+    }
+
+    /* ── Signature line ───────────────────────────────────── */
+    .sig-row {
+      display: flex;
+      justify-content: flex-end;
+      padding: 0.5mm 1.5mm 1.5mm;
+    }
+    .sig-line {
+      border-top: 1px solid #000;
+      width: 38mm;
+      text-align: center;
+      padding-top: 0.8mm;
+      font-size: 7.5pt;
+    }
+
+    /* ── QR footer ────────────────────────────────────────── */
+    .footer {
+      display: flex;
+      align-items: center;
+      padding: 1.5mm;
+      gap: 2mm;
+    }
+    .qr-box {
+      width: 18mm;
+      height: 18mm;
+      border: 1px solid #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 6pt;
+      text-align: center;
+      flex-shrink: 0;
+      color: #888;
+    }
+    .footer-note {
+      font-size: 7.5pt;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── HEADER ─────────────────────────────────────────────── -->
+  <div class="header">
+    <div class="logo-box">Authority<br>Logo</div>
+    <div class="header-text">
+      <div class="header-title">Notification of<br>Traffic Offence</div>
+      <div class="header-sub">Issued in terms of<br>Section 56 Act 51 of 1977</div>
+    </div>
+  </div>
+
+  <!-- ── WARNING ────────────────────────────────────────────── -->
+  <div class="warning">
+    Warning: Failing to comply with this notification is punishable by a fine or imprisonment or both.
+  </div>
+
+  <!-- ── OFFENCE PARTICULARS ────────────────────────────────── -->
+  <div class="section">
+    <div class="section-header">Offence Particulars</div>
+    <div class="section-body">
+      <div class="row"><span class="lbl">Notice Number:</span><span class="val">26100601000AAE60036175</span></div>
+      <div class="row"><span class="lbl">Date and Time:</span><span class="val">10/04/2026 18:17</span></div>
+      <div class="row"><span class="lbl">Location:</span><span class="val">GPS: -25.776, 28.337</span></div>
+    </div>
+  </div>
+
+  <!-- ── OFFENDER PARTICULARS ───────────────────────────────── -->
+  <div class="section">
+    <div class="section-header">Offender Particulars</div>
+    <div class="section-body">
+      <div class="row"><span class="lbl">First Name:</span><span class="val">BOB</span></div>
+      <div class="row"><span class="lbl">Surname:</span><span class="val">BELCHER</span></div>
+      <div class="row"><span class="lbl">ID Type:</span><span class="val">NATIONAL ID</span></div>
+      <div class="row"><span class="lbl">ID Number:</span><span class="val">3215684321684321</span></div>
+      <div class="row"><span class="lbl">Country of ID Issue:</span><span class="val">Angola</span></div>
+      <div class="row"><span class="lbl">Date of birth:</span><span class="val">03/04/1973</span></div>
+      <div class="row"><span class="lbl">Cell Number:</span><span class="val">+1-784 032685432</span></div>
+      <div class="row"><span class="lbl">Email Address:</span><span class="val">DRIVER@GMAIL.COM</span></div>
+      <div class="row"><span class="lbl">Gender:</span><span class="val">Male</span></div>
+      <div class="row"><span class="lbl">Occupation:</span><span class="val">Motor Vehicle Drivers and Related Workers</span></div>
+      <div class="row"><span class="lbl">Licence Code:</span><span class="val">B</span></div>
+      <div class="row"><span class="lbl">Licence Number:</span><span class="val">03218218432165KL</span></div>
+      <div class="row"><span class="lbl">Residential Addr:</span><span class="val">24 FILNDER STR, WAPADRAND, PRETORIA, 0321, Angola</span></div>
+      <div class="row"><span class="lbl">Business Addr:</span><span class="val">24 FILNDER STR, WAPADRAND, PRETORIA, 0321, Angola</span></div>
+    </div>
+    <div class="sig-row">
+      <div class="sig-line">Offender signature</div>
+    </div>
+  </div>
+
+  <!-- ── VEHICLE PARTICULARS ────────────────────────────────── -->
+  <div class="section">
+    <div class="section-header">Vehicle Particulars</div>
+    <div class="section-body">
+      <div class="row"><span class="lbl">Plate Number:</span><span class="val">OP78NMGP</span></div>
+      <div class="row"><span class="lbl">Make:</span><span class="val">JEEP</span></div>
+      <div class="row"><span class="lbl">Model:</span><span class="val">COMMANDER</span></div>
+      <div class="row"><span class="lbl">Colour:</span><span class="val">Black</span></div>
+      <div class="row"><span class="lbl">Cargo:</span><span class="val">Passengers</span></div>
+    </div>
+  </div>
+
+  <!-- ── CHARGE PARTICULARS ─────────────────────────────────── -->
+  <div class="section">
+    <div class="section-header">Charge Particulars</div>
+    <div class="section-body">
+
+      <!-- Charge 1 -->
+      <div class="row"><span class="lbl">Charge Code:</span><span class="val">70802</span></div>
+      <div class="row"><span class="lbl">Fine Amount:</span><span class="val">NAD 2000</span></div>
+      <div class="block-label">Description:</div>
+      <div class="block-text">Drove a motor vehicle of the Code C1, C, C1E, and CE with registration number OP78NMGP whilst the driving licence is not endorsed with a professional authorisation</div>
+      <div class="block-label">Regulation:</div>
+      <div class="block-text">Reg. 127(1)(a) read with Reg 1, 128, 129, 134 and 369 of the Road Traffic and Transport Regulations, 2001 (GN 53 of 2001) read with Sec.1, 86 and 89 of the Road Traffic and Transport Act, 1999 (Act 22 of 1999) as amended</div>
+      <div class="row"><span class="lbl">Alt charge to code:</span><span class="val">N/A</span></div>
+
+      <div class="charge-sep"></div>
+
+      <!-- Charge 2 -->
+      <div class="row"><span class="lbl">Charge Code:</span><span class="val">44263</span></div>
+      <div class="row"><span class="lbl">Fine Amount:</span><span class="val">NAD 3000</span></div>
+      <div class="block-label">Description:</div>
+      <div class="block-text">As the driver of motor vehicle OP78NMGP you exceeded the speedlimit of 20 kilometres per hour, as was indicated in the prescribed manner on a road traffic sign, in that you drove at a speed of 146 kilometres per hour within an urban area</div>
+      <div class="block-label">Regulation:</div>
+      <div class="block-text">Sec. 76(1) rw Sec. 1,76(2),76(4),86,89 and 106 of the Road Traffic and Transport Act, 1999 (Act 22/1999) as amended read with Reg. 323 and Schedule 2 of the Road Traffic and Transport Regulations, 2001 promulgated under GN No.53/2001 as amended</div>
+      <div class="row"><span class="lbl">Alt charge to code:</span><span class="val">N/A</span></div>
+
+      <div class="charge-sep"></div>
+
+      <!-- Charge 3 -->
+      <div class="row"><span class="lbl">Charge Code:</span><span class="val">41072</span></div>
+      <div class="row"><span class="lbl">Fine Amount:</span><span class="val">NAD 2000</span></div>
+      <div class="block-label">Description:</div>
+      <div class="block-text">Drove a motor vehicle with registration number OP78NMGP while holding a cellular/mobile phone, or any other communication device in your hand/hands or with any other part of your body</div>
+      <div class="block-label">Regulation:</div>
+      <div class="block-text">Reg.342(1)(a) read with Reg 1, 342(3) and 369 of the Road Traffic and Transport Regulations, 2001 (GN 53 of 2001) read with Sec.1, 86 and 89 of the Road Traffic and Transport Act, 1999 (Act 22 of 1999) as amended</div>
+      <div class="row"><span class="lbl">Alt charge to code:</span><span class="val">70802</span></div>
+
+    </div>
+  </div>
+
+  <!-- ── COURT PARTICULARS ──────────────────────────────────── -->
+  <div class="section">
+    <div class="section-header">Court Particulars</div>
+    <div class="preamble">Date and place you are personally to appear in court.</div>
+    <div class="section-body">
+      <div class="row"><span class="lbl">Court Name:</span><span class="val">Windhoek Magistrate Court</span></div>
+      <div class="row"><span class="lbl">Court Room:</span><span class="val">1</span></div>
+      <div class="row"><span class="lbl">Court Date:</span><span class="val">02/06/2026</span></div>
+    </div>
+  </div>
+
+  <!-- ── OFFICER PARTICULARS ────────────────────────────────── -->
+  <div class="section">
+    <div class="section-header">Officer Particulars</div>
+    <div class="section-body">
+      <div class="row"><span class="lbl">Officer Name:</span><span class="val">BROFF BROFF</span></div>
+      <div class="row"><span class="lbl">Issuing Authority:</span><span class="val">RA Brakwater Weighbridge</span></div>
+    </div>
+    <div class="sig-row">
+      <div class="sig-line">Officer signature</div>
+    </div>
+  </div>
+
+  <!-- ── PAYMENT PARTICULARS ───────────────────────────────── -->
+  <div class="section">
+    <div class="section-header">Payment Particulars</div>
+    <div class="preamble">Date and place where admission of guilt fine(s) may be paid to avoid appearance in court.</div>
+    <div class="section-body">
+      <div class="row"><span class="lbl">Payment Due Date:</span><span class="val">24/04/2026</span></div>
+      <div class="row"><span class="lbl">Payment Place:</span><span class="val">Branch: null | Acc: null</span></div>
+    </div>
+  </div>
+
+  <!-- ── QR / FOOTER ────────────────────────────────────────── -->
+  <div class="footer">
+    <div class="qr-box">QR<br>Code</div>
+    <div class="footer-note">Use notice no. as reference</div>
+  </div>
+
+</body>
+</html>

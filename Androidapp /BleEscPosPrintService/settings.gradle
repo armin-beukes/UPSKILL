@@ -1,0 +1,2 @@
+rootProject.name = 'TrafmanPrintBridge'
+include ':app'

@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="za.co.magnabc.trafmanprintbridge"
+4    android:versionCode="3"
+5    android:versionName="0.2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission
+11-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:5:5-7:38
+12        android:name="android.permission.BLUETOOTH"
+12-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:6:9-52
+13        android:maxSdkVersion="30" />
+13-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:7:9-35
+14    <uses-permission
+14-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:8:5-10:38
+15        android:name="android.permission.BLUETOOTH_ADMIN"
+15-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:9:9-58
+16        android:maxSdkVersion="30" />
+16-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:10:9-35
+17    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+17-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:11:5-76
+17-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:11:22-73
+18
+19    <uses-feature
+19-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:13:5-15:36
+20        android:name="android.hardware.bluetooth"
+20-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:14:9-50
+21        android:required="false" />
+21-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:15:9-33
+22
+23    <queries>
+23-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:17:5-21:15
+24        <intent>
+24-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:18:9-20:18
+25            <action android:name="za.co.magnabc.trafmanprintbridge.PRINT" />
+25-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:19:13-77
+25-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:19:21-74
+26        </intent>
+27    </queries>
+28
+29    <application
+29-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:23:5-69:19
+30        android:allowBackup="true"
+30-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:24:9-35
+31        android:debuggable="true"
+32        android:icon="@drawable/ic_printer"
+32-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:25:9-44
+33        android:label="@string/app_name"
+33-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:26:9-41
+34        android:supportsRtl="true"
+34-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:27:9-35
+35        android:theme="@style/AppTheme" >
+35-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:28:9-40
+36        <activity
+36-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:30:9-33:44
+37            android:name="za.co.magnabc.trafmanprintbridge.LogActivity"
+37-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:31:13-40
+38            android:exported="false"
+38-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:32:13-37
+39            android:label="@string/logs" />
+39-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:33:13-41
+40        <activity
+40-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:35:9-68:20
+41            android:name="za.co.magnabc.trafmanprintbridge.MainActivity"
+41-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:36:13-41
+42            android:exported="true"
+42-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:37:13-36
+43            android:label="@string/app_name" >
+43-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:38:13-45
+44            <intent-filter>
+44-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:39:13-42:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:40:17-69
+45-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:40:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:41:17-77
+47-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:41:27-74
+48            </intent-filter>
+49            <intent-filter>
+49-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:44:13-47:29
+50                <action android:name="za.co.magnabc.trafmanprintbridge.PRINT" />
+50-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:19:13-77
+50-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:19:21-74
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:46:17-76
+52-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:46:27-73
+53            </intent-filter>
+54            <intent-filter>
+54-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:49:13-52:29
+55                <action android:name="com.example.bleescposprintservice.PRINT" />
+55-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:50:17-82
+55-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:50:25-79
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:46:17-76
+57-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:46:27-73
+58            </intent-filter>
+59            <intent-filter>
+59-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:54:13-58:29
+60                <action android:name="android.intent.action.SEND" />
+60-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:55:17-69
+60-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:55:25-66
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:46:17-76
+62-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:46:27-73
+63
+64                <data android:mimeType="text/plain" />
+64-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:57:17-55
+64-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:57:23-52
+65            </intent-filter>
+66            <intent-filter>
+66-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:60:13-67:29
+67                <action android:name="android.intent.action.VIEW" />
+67-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:61:17-69
+67-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:61:25-66
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:46:17-76
+69-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:46:27-73
+70                <category android:name="android.intent.category.BROWSABLE" />
+70-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:63:17-78
+70-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:63:27-75
+71
+72                <data
+72-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:57:17-55
+73                    android:host="print"
+73-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:65:21-41
+74                    android:scheme="trafmanprint" />
+74-->/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/AndroidManifest.xml:66:21-50
+75            </intent-filter>
+76        </activity>
+77    </application>
+78
+79</manifest>

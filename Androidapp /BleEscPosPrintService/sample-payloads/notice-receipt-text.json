@@ -1,0 +1,15 @@
+{
+  "sourceSystem": "TRAFMAN",
+  "documentType": "NOTICE_RECEIPT",
+  "documentNumber": "ABC123456",
+  "printerMode": "BLUETOOTH",
+  "copies": 1,
+  "payloadType": "TEXT",
+  "payload": "TRAFMAN NOTICE RECEIPT\nNotice: ABC123456\nAuthority: W001\nWeighbridge: B01\nAmount: 100.00\n\nThank you\n",
+  "metadata": {
+    "authority": "W001",
+    "weighbridge": "B01",
+    "user": "tester",
+    "transactionId": "sample-001"
+  }
+}

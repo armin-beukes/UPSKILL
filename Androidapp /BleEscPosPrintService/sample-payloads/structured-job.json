@@ -1,0 +1,21 @@
+{
+  "sourceSystem": "TRAFMAN",
+  "documentType": "CHARGE_SHEET_SUMMARY",
+  "documentNumber": "CS-000001",
+  "printerMode": "BLUETOOTH",
+  "copies": 1,
+  "payloadType": "STRUCTURED_JSON",
+  "lines": [
+    "Charge sheet summary",
+    "Notice: ABC123456",
+    "Vehicle: TEST123",
+    "Officer: Demo Officer",
+    "Generated for thermal receipt"
+  ],
+  "metadata": {
+    "authority": "W001",
+    "weighbridge": "B01",
+    "user": "tester",
+    "transactionId": "sample-002"
+  }
+}

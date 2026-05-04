@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    compileSdk 33
+    defaultConfig {
+        applicationId "za.co.magnabc.trafmanprintbridge"
+        minSdk 21
+        targetSdk 33
+        versionCode 3
+        versionName "0.2.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+dependencies {
+}

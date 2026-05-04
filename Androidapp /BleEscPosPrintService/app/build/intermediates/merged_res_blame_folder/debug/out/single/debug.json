@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/build/intermediates/merged_res/debug/layout_activity_logs.xml.flat",
+        "source": "/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/res/layout/activity_logs.xml"
+    },
+    {
+        "merged": "/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/build/intermediates/merged_res/debug/drawable_ic_printer.xml.flat",
+        "source": "/mnt/d/DEVOPS/TrafmanT400/UPSKILL/Androidapp /BleEscPosPrintService/app/src/main/res/drawable/ic_printer.xml"
+    }
+]
